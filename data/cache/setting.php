@@ -1,0 +1,2 @@
+<?php if(!defined("IN_PROVERB")){?>error<?php }?><?php $content=array ('site_title'=>'UZERO','site_url'=>'http://uzero.cn/proverb','site_imgurl'=>'','site_videourl'=>'','site_charset'=>'utf-8','adminpath'=>'admin',
+);?>
