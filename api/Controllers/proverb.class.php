@@ -19,7 +19,7 @@ class Proverb extends Controller
                 $container .= "and proverbId >".$proverbId." ";
             }
         }
-        $json = array('msg'=>'0','timestamp'=>time(),'info'=>getProverbs($container, $cursor));
+        $json = array('msg'=>'0','timestamp'=>time(),'inreview'=>'0','info'=>getProverbs($container, $cursor));
         echo proverb_encode($json);
     }
 
